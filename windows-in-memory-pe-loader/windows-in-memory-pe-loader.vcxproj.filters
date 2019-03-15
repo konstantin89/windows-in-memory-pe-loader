@@ -8,6 +8,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{ab16f599-389b-44c5-8468-aab7390abe7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\exceptions">
+      <UniqueIdentifier>{7adfed30-6622-4376-b6fb-ed9e53ba9caa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\InMemoryPeLoader.cpp">
@@ -17,6 +20,12 @@
   <ItemGroup>
     <ClInclude Include="src\InMemoryPeLoader.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exceptions\FailedToAllocMemory.h">
+      <Filter>src\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exceptions\InvalidArgument.h">
+      <Filter>src\exceptions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

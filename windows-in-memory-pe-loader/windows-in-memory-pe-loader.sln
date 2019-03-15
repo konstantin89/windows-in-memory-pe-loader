@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "windows-in-memory-pe-loader", "windows-in-memory-pe-loader.vcxproj", "{31C66243-61FD-4F8F-9FA7-1E6050846413}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "command-line-tool", "..\command-line-tool\command-line-tool.vcxproj", "{0292F6A9-4FDA-4E78-A74A-1080CD433BE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31C66243-61FD-4F8F-9FA7-1E6050846413} = {31C66243-61FD-4F8F-9FA7-1E6050846413}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
